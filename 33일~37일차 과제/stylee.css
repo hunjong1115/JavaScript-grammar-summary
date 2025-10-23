@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+#main{
+    background-color: rgba(255, 255, 205, 0.897);
+    border-radius: 6px;
+    margin: 100px auto;
+    width: 70%;
+    height: 180px;
+    
+}
+
+.element{
+    margin-left: 20px;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+input{
+    width: 55%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+input:focus{
+    border: 0;
+}
+
+button{
+    background-color: rgb(202, 202, 0);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#input-bell{
+    margin-left: 20px;
+    color: rgb(85, 85, 85);
+}
