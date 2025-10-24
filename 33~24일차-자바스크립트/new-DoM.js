@@ -23,3 +23,4 @@ function retrieveUserInput(event) {  //강의버전
 }
 
 putKey.addEventListener('input', retrieveUserInput);
+ 
