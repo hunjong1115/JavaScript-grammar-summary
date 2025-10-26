@@ -11,10 +11,13 @@ function updateRemainingCharacters(event) {
 
     remainingCharsElement.textContent = remainingCharacters;
 
-    if (remainingCharacters <= 10) {
+    if (remainingCharacters <= 10 && remainingCharacters>0) {
         productNameInputElement.classList = 'warning';
         remainingCharsElement.classList = 'warning';
-    } else {
+    }else if(remainingCharacters == 0){
+        productNameInputElement.classList = 'error';
+        remainingCharsElement.classList = 'error';
+    }else {
         remainingCharsElement.classList.remove('warning'); // 'warning' 클래스 제거
         productNameInputElement.classList.remove('warning'); // input에서도 제거
     }
